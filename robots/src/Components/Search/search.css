@@ -1,0 +1,31 @@
+.search-input {
+    font-family: 'Orbitron', sans-serif; /* Fuente futurista para mantener coherencia */
+    font-size: 1.5rem; /* Tamaño del texto */
+    padding: 0.5rem 1rem; /* Espaciado interno */
+    border: 2px solid #00bfff; /* Borde azul brillante */
+    border-radius: 0.5rem; /* Bordes redondeados */
+    background: rgba(0, 0, 0, 0.5); /* Fondo semi-transparente */
+    color: #00bfff; /* Color del texto */
+    outline: none; /* Elimina el borde predeterminado de enfoque */
+    transition: background 0.3s ease, border-color 0.3s ease; /* Transición suave */
+}
+
+.search-input::placeholder {
+    color: #b0e0ff; /* Color del texto del placeholder */
+    opacity: 0.8; /* Opacidad del placeholder */
+}
+
+.search-input:focus {
+    background: rgba(0, 0, 0, 0.8); /* Fondo más oscuro al enfocarse */
+    border-color: #ffcc00; /* Cambio de color del borde al enfocarse */
+    color: #ffcc00; /* Color del texto al enfocarse */
+}
+
+.search-input:hover {
+    border-color: #ffcc00; /* Cambio de color del borde al pasar el mouse */
+}
+.container{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}

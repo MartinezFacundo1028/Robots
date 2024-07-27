@@ -1,0 +1,9 @@
+.titulo{
+    font-family: 'Orbitron', sans-serif; 
+    font-size: 4.5rem; 
+    font-weight: 700;
+    color: #343c3f; 
+    text-shadow: 0 0 15px rgba(0, 191, 255, 0.7), 0 0 30px rgba(0, 191, 255, 0.5);
+    text-align: center;
+    margin: 1.5rem 0;
+}
